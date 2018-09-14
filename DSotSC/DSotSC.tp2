@@ -132,6 +132,7 @@ LANGUAGE
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 BEGIN ~Dark Side of the Sword Coast (DSotSC)~
+DESIGNATED 0
 REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 FORBID_COMPONENT ~setup-bp-bgt-worldmap.tp2~ ~0~ ~This mod should be installed BEFORE BP-BGT Worldmap~
 
@@ -2063,6 +2064,7 @@ END
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 BEGIN ~DSotSC Wizard spells~
+DESIGNATED 10
 REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 REQUIRE_PREDICATE MOD_IS_INSTALLED ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
 
@@ -2293,6 +2295,7 @@ COPY_EXISTING ~dsmortus.cre~ ~override~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 BEGIN ~DSotSC Priest spells~
+DESIGNATED 20
 REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 REQUIRE_PREDICATE MOD_IS_INSTALLED ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
 
@@ -2400,6 +2403,7 @@ COPY_EXISTING ~dsarchdr.cre~ ~override~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 BEGIN ~More common encounters in vanilla areas~
+DESIGNATED 30
 REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 REQUIRE_PREDICATE MOD_IS_INSTALLED ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
 
@@ -2490,6 +2494,7 @@ EXTEND_BOTTOM ~%LionsWay_BCS%.bcs~ ~DSotSC/modify/bcs/morestooges/ar6600.baf~ EV
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 BEGIN ~Distribute DSotSC items also in vanilla content~
+DESIGNATED 40
 REQUIRE_PREDICATE GAME_IS ~bgt eet~ ~This mod is not compatible with your game~
 REQUIRE_PREDICATE MOD_IS_INSTALLED ~DSotSC/DSotSC.tp2~ ~0~ ~Dark Side of the Sword Coast is not installed~
 
